@@ -1,6 +1,7 @@
+
 const Card = ({name,avatar}) => {
     return (
-        <div>
+        <div className="card">
             <h1>{name}</h1>
             <img src={avatar} alt="" />
         </div>

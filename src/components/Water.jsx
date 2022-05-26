@@ -1,10 +1,11 @@
 import { pokemonData } from "../pokemonInfo";
 import Card from "./Card";
+import './CardWater.css'
 const Water = () => {
     const {water}=pokemonData
 
     return (
-        <div>
+        <div className="containerWater">
             {water.map(poke => 
                 <Card key={poke.id} name={poke.pokemonName} avatar={poke.avatar}/>
             )}

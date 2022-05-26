@@ -3,7 +3,7 @@ export const pokemonData = {
         {
             id: 1,
             pokemonName:"Charizard",
-            avatar:"https://static.wikia.nocookie.net/espokemon/images/9/95/Charizard.png/revision/latest?cb=20180325003352",
+            avatar:"https://static.wikia.nocookie.net/wikianimeotaku/images/e/e5/006Charizard_AG_anime.png/revision/latest?cb=20160216204418&path-prefix=es",
         },{
             id: 2,
             pokemonName:"Charmander",
@@ -26,7 +26,7 @@ export const pokemonData = {
         {
             id: 1,
             pokemonName:"Blastoise",
-            avatar:"https://i.pinimg.com/originals/a8/69/91/a869915fdb507d7de8f23739aa989535.jpg",
+            avatar:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
         },{
             id: 2,
             pokemonName:"Squirtle",
