@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
   
@@ -37,3 +43,24 @@
     transform: rotate(360deg);
   }
 }
+
+/* button{
+  background-color: #ffe278;
+  color: #0d0975;
+  border: none;
+  padding:6px;
+  margin: 5px;
+  font-size: 20px;
+  border-radius:10%;
+  -webkit-border-radius:10%;
+  -moz-border-radius:10%;
+  -ms-border-radius:10%;
+  -o-border-radius:10%;
+}
+div{
+  background-image:url("https://www.freepnglogos.com/images/pokemon-logo-png-1446.html");
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction:row;
+  flex-wrap: nowrap;
+} */

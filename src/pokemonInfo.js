@@ -3,7 +3,7 @@ export const pokemonData = {
         {
             id: 1,
             pokemonName:"Charizard",
-            avatar:"https://static.wikia.nocookie.net/wikianimeotaku/images/e/e5/006Charizard_AG_anime.png/revision/latest?cb=20160216204418&path-prefix=es",
+            avatar:"https://www.pngmart.com/files/12/Pokemon-Charizard-PNG-Image.png",
         },{
             id: 2,
             pokemonName:"Charmander",

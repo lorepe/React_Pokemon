@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .containerWater .card h1 {
@@ -18,12 +20,11 @@
     height: auto;
 }
 .containerWater .card{
-    width: 50vw;
-    height: 30vw;
+    width: 30vw;
+    height: 90%;
     padding:5vw;
-    margin:50px;
+    margin:1%;
     background-color: #0658d1;
-
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -34,10 +35,9 @@
 .containerWater{
     background-color: #35c9ff;
     display: flex;
-    width: 100vw;
-    height: 50vw;
-    /* flex-wrap: wrap; */
-    flex-direction: row;
+    width: 100%;
+    height: 90%;
+    flex-wrap: wrap;
     gap: 10px 30px;
     justify-content: space-around;
     align-content: center;
@@ -46,15 +46,3 @@
 }
 
 
-
-.color1 {color: #ffc488;}
-.color2 {color: #ffe278;}
-.color3 {color: #0d0975;}
-.color4 {color: #0658d1;}
-.color5 {color: #35c9ff;}
-
-.color1 {color: #140f07;}
-.color2 {color: #172a4e;}
-.color3 {color: #475dac;}
-.color4 {color: #8b99fb;}
-.color5 {color: #e8e1f6;}

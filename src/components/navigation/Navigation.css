@@ -1,24 +1,28 @@
 button{
-    background-color: #ffe278;
+    background-color: #ffd500;
     color: #0d0975;
     border: none;
-    padding:6px;
+    padding:10px 20px;
     margin: 5px;
     font-size: 20px;
-    border-radius:10%;
-    -webkit-border-radius:10%;
-    -moz-border-radius:10%;
-    -ms-border-radius:10%;
-    -o-border-radius:10%;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
 }
-.color1 {color: #ffc488;}
-.color2 {color: #ffe278;}
-.color3 {color: #0d0975;}
-.color4 {color: #0658d1;}
-.color5 {color: #35c9ff;}
-
-.color1 {color: #140f07;}
-.color2 {color: #172a4e;}
-.color3 {color: #475dac;}
-.color4 {color: #8b99fb;}
-.color5 {color: #e8e1f6;}
+button:hover{
+    background-color:#ffe278;
+}
+div.navigation{
+    background-image:url("./pokemon.png");
+    background-repeat: no-repeat;
+    background-color: #00296b;
+    color: #fdc500;
+    height:40vw;
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items:flex-end;
+} 

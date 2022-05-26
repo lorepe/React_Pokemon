@@ -2,7 +2,7 @@ import './Navigation.css'
 
 const Navigation = ({pFn}) => {
     return (
-        <div>
+        <div className="navigation">
             <button onClick={()=>pFn(1)}>Fire</button>
             <button onClick={()=>pFn(2)}>Water</button>
             <button onClick={()=>pFn(3)}>Rock</button>
